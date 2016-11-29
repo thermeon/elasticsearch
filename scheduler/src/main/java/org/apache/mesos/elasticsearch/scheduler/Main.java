@@ -31,6 +31,7 @@ public class Main {
     }
 
     public void run(String[] args) {
+        System.out.println("HEY HO! First rule of the Club of Mesos is: you don't get to do jack shit.");
         checkEnv();
 
         configuration = new Configuration(args);

@@ -3,7 +3,7 @@ apply plugin: "spring-boot"
 
 mainClassName = "org.apache.mesos.elasticsearch.scheduler.Main"
 ext {
-    imageName = imagePrefix + "/elasticsearch-scheduler"
+    imageName = imagePrefix + "/elasticsearch-scheduler:latest"
 }
 
 buildscript {
